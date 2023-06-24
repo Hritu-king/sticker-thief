@@ -1,20 +1,20 @@
 [telegram]
-token = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+token = "6130457410:AAG8jDlWwyFQv1-u8XYnpDhtXaliPo3YrEY"
 workers = 1
-admins = [1234567]
+admins = [6262157003]
 admins_only = false
 maintenance_mode = false
 persistent_temp_data = true
 
 [pyrogram]
 enabled = false
-api_id = 0
-api_hash = ""
+api_id = 29616312
+api_hash = "dd1a05ab4c47a5a037cc067cf4bded27"
 
 [sqlite]
 filename = "stickersbot.sqlite"
 
 [bot]
-sourcecode = ""
-issues = ""
-channel = ""
+sourcecode = "https://t.me/prime_hritu"
+issues = "https://t.me/prime_hritu"
+channel = "https://t.me/private_bots"
