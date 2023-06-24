@@ -72,7 +72,7 @@ def on_pack_title(update: Update, context: CallbackContext):
         # raises an error: https://docs.sqlalchemy.org/en/13/errors.html#object-relational-mapping
         # so we preload the list here in case we're going to need it later, to avoid a more complex handling
         # of the session
-        by_bot_part = '_by_' + context.bot.username
+        by_bot_part = ' '
         pack_names = [pack.name.replace(by_bot_part, '', 1) for pack in packs_by_title]  # strip the '_by_bot' part
         pack_type = packs_by_title[0].type_patched()  # we need this in case there's only one pack and we need to know whether it is animated or not
 
